@@ -13,7 +13,7 @@ const routes: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
     { path: '', pathMatch: 'full', redirectTo: 'home' }, // Redirect to home for empty path
-    { path: '**', redirectTo: 'home' } // Redirect to home for unknown paths
+    { path: '**', redirectTo: 'home', pathMatch: 'full' } // Redirect to home for unknown paths
 ];
 
 
