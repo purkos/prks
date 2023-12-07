@@ -1,1 +1,20 @@
-<p>projects works!</p>
+<div class="py-20 px-10 bg-home">
+    <p class="text-primaryWhite text-4xl font-normal">Projects</p>
+    <div class="grid grid-cols-2 gap-3">
+        <div class="bg-thirdDark rounded-lg flex-col gap-2 border-primary pb-5 overflow-hidden" *ngFor="let project
+        of projects">
+            <img src="../../assets/images/peaks-bg.png" alt="" class="w-full h-80">
+            <div class="flex gap-3 py-7 px-6 font-light text-primaryGray text-sm">
+                <span class="py-1.5 px-4 border-primary" *ngFor="let tech of project.technologies">
+                    {{tech}}
+                </span>
+
+            </div>
+            <div class="px-6 flex justify-between items-center">
+                <p class="font-normal text-3xl">{{project.title}}</p>
+                <a href="{{project.link}}"><mat-icon>open_in_new</mat-icon></a>
+            </div>
+        </div>
+
+    </div>
+</div>

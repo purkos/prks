@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        richBlack: "#0D0C1D",
-        oxfordBlue: "#12152B",
-        ultraFiolet: "#474973",
-        roseQuartz: "#A69CAC",
-        almond: "#F1DAC4"
+        primaryDark: "rgb(17,17,17)",
+        secondaryDark: "rgb(21,21,21)",
+        thirdDark: "rgb(26,26,26)",
+        primaryGray: "rgb(200,200,200)",
+        secondaryGray: "rgb(172,172,172)",
+        primaryWhite: "rgba(240,240,240)"
       }
     },
   },

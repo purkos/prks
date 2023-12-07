@@ -1,1 +1,49 @@
-<div class="bg-blue-900">header</div>
+<!-- sidebar.component.html -->
+
+<div class="flex flex-col gap-10 h-screen py-16">
+    <div class="h-max flex flex-col justify-center items-center gap-2 text-primaryGray">
+        <div class="rounded rounded-full w-40 h-40 bg-primaryGray"></div>
+        <p class="text-4xl  font-black hover:text-primaryWhite duration-200">PRKS</p>
+        <span class="text-lg   hover:text-primaryWhite duration-200">I am frontend Developer</span>
+    </div>
+
+    <nav class=" w-full text-base text-primaryWhite  tracking-wide">
+        <ul class="flex flex-col gap-6 w-full px-10 font-light ">
+            <li class="flex  w-full ">
+                <a routerLink="/"
+                   [routerLinkActiveOptions]="{ exact: true }"
+                   class="link-item "
+                   routerLinkActive="active"
+                >
+                    <mat-icon
+                            class="duration-150">home
+                    </mat-icon>
+                    Home</a></li>
+            <li class="flex gap-2 w-full ">
+                <a routerLink="/projects"
+                   [routerLinkActiveOptions]="{ exact: true }"
+                   class="link-item "
+                   routerLinkActive="active"
+                >
+                    <mat-icon class="duration-150">work</mat-icon>
+                    Projects</a></li>
+            <li class="flex gap-2 w-full ">
+                <a routerLink="/about"
+                   [routerLinkActiveOptions]="{ exact: true }"
+                   class="link-item "
+                   routerLinkActive="active"
+                >
+                    <mat-icon class="duration-150">info</mat-icon>
+                    About</a></li>
+            <li class="flex gap-2 w-full ">
+                <a routerLink="/contact"
+                   [routerLinkActiveOptions]="{ exact: true }"
+                   class="link-item"
+                   routerLinkActive="active"
+                >
+                    <mat-icon class="duration-150">mail</mat-icon>
+                    Contact</a></li>
+        </ul>
+    </nav>
+</div>
+

@@ -1,5 +1,11 @@
-<ng-container class="bg-richBlack text-white">
-  <app-header></app-header>
-  <app-home></app-home>
-  <app-footer></app-footer>
-</ng-container>
+<!-- app.component.html -->
+
+<div class="grid grid-cols-5 h-screen bg-primaryDark text-primaryWhite">
+    <!-- Sidebar component -->
+    <app-header class=""></app-header>
+
+    <!-- Main content area -->
+    <div class="col-span-4 bg-secondaryDark  h-full overflow-y-scroll">
+        <router-outlet></router-outlet>
+    </div>
+</div>
