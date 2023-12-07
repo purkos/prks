@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e89bf9-f98a-4d34-840e-64760fc75e32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/16.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/16.2.10/angular-webpack/d8258d0ea3f4403c721000b5e1a8c2eb49bebb66/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701890102832</updated>
       <workItem from="1701890105297" duration="8298000" />
-      <workItem from="1701935783895" duration="17994000" />
+      <workItem from="1701935783895" duration="19000000" />
     </task>
     <servers />
   </component>
