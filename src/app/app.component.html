@@ -1,11 +1,10 @@
 <!-- app.component.html -->
-
-<div class="grid grid-cols-5 h-screen bg-primaryDark text-primaryWhite">
+<div class="text-primaryWhite font-IMBSans bg-home  ">
     <!-- Sidebar component -->
-    <app-header class=""></app-header>
-
-    <!-- Main content area -->
-    <div class="col-span-4 bg-secondaryDark  h-full overflow-y-scroll">
+    <div class="backdrop-blur-3xl">
+        <app-header ></app-header>
+    </div>
+    <div class="h-[calc(100vh-5rem)] py-10 px-60  text-mainBlue-primary backdrop-blur-3xl ">
         <router-outlet></router-outlet>
     </div>
 </div>

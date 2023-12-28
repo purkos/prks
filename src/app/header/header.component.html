@@ -1,49 +1,47 @@
 <!-- sidebar.component.html -->
-
-<div class="flex flex-col gap-10 h-screen py-16">
-    <div class="h-max flex flex-col justify-center items-center gap-2 text-primaryGray">
-        <div class="rounded rounded-full w-40 h-40 bg-primaryGray"></div>
-        <p class="text-4xl  font-black hover:text-primaryWhite duration-200">PRKS</p>
-        <span class="text-lg   hover:text-primaryWhite duration-200">I am frontend Developer</span>
+<div
+        class="flex h-20 max-lg:w-full items-center max-lg:items-center justify-between overflow-hidden px-60 py-2 shadow-sm shadow-mainBlue-darkest">
+    <div class="flex h-max items-center justify-center py-4 text-mainBlue-primary">
+        <p class="text-5xl font-extrabold duration-200 hover:text-white hover:cursor-pointer" routerLink="/">PRKS</p>
     </div>
-
-    <nav class=" w-full text-base text-primaryWhite  tracking-wide">
-        <ul class="flex flex-col gap-6 w-full px-10 font-light ">
-            <li class="flex  w-full ">
+    <nav class="top-20 flex max-lg:hidden justify-center text-base tracking-wide text-mainBlue-primary">
+        <ul
+                class="flex h-full w-auto w-full rounded-full">
+            <li class="flex">
                 <a routerLink="/"
                    [routerLinkActiveOptions]="{ exact: true }"
-                   class="link-item "
+                   class="link-item"
                    routerLinkActive="active"
                 >
-                    <mat-icon
-                            class="duration-150">home
-                    </mat-icon>
+                    <i class="flex items-center text-xl duration-150 fi fi-rr-house-chimney"></i>
                     Home</a></li>
-            <li class="flex gap-2 w-full ">
+            <li class="flex w-full gap-2">
                 <a routerLink="/projects"
                    [routerLinkActiveOptions]="{ exact: true }"
-                   class="link-item "
+                   class="link-item"
                    routerLinkActive="active"
                 >
-                    <mat-icon class="duration-150">work</mat-icon>
+                    <i class="flex items-center text-xl duration-150 fi fi-rr-briefcase"></i>
                     Projects</a></li>
-            <li class="flex gap-2 w-full ">
+            <li class="flex w-full gap-2">
                 <a routerLink="/about"
                    [routerLinkActiveOptions]="{ exact: true }"
-                   class="link-item "
+                   class="link-item"
                    routerLinkActive="active"
                 >
-                    <mat-icon class="duration-150">info</mat-icon>
+                    <i class="flex items-center text-xl duration-150 fi fi-rr-info"></i>
                     About</a></li>
-            <li class="flex gap-2 w-full ">
+            <li class="flex w-full gap-2">
                 <a routerLink="/contact"
                    [routerLinkActiveOptions]="{ exact: true }"
                    class="link-item"
                    routerLinkActive="active"
                 >
-                    <mat-icon class="duration-150">mail</mat-icon>
+                    <i class="flex items-center text-xl duration-150 fi fi-rr-envelope"></i>
                     Contact</a></li>
         </ul>
+
     </nav>
+
 </div>
 

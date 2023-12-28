@@ -33,8 +33,6 @@ import {NgIconsModule} from "@ng-icons/core";
         AppRoutingModule,
         BrowserAnimationsModule,
         MatIconModule,
-        // NgIconsModule.withIcons({ featherAirplay, heroUsers }),
-
     ],
     providers: [],
     bootstrap: [AppComponent]

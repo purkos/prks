@@ -1,18 +1,24 @@
-<div class="py-20 px-10 bg-home">
-    <p class="text-primaryWhite text-4xl font-normal">Projects</p>
-    <div class="grid grid-cols-2 gap-3">
-        <div class="bg-thirdDark rounded-lg flex-col gap-2 border-primary pb-5 overflow-hidden" *ngFor="let project
-        of projects">
-            <img src="../../assets/images/peaks-bg.png" alt="" class="w-full h-80">
-            <div class="flex gap-3 py-7 px-6 font-light text-primaryGray text-sm">
-                <span class="py-1.5 px-4 border-primary" *ngFor="let tech of project.technologies">
+<div class="flex h-full w-full flex-col max-lg:flex-col max-lg:items-center justify-items-start gap-10">
+    <p class="text-4xl font-medium">Projects</p>
+    <div class="grid grid-cols-2 gap-5">
+        <div class="flex-col gap-2 overflow-hidden rounded-lg pb-5 shadow-md shadow-mainBlue-darkest bg-card border-primary" *ngFor="let
+        project
+        of projects; let i = index" [@fadeInRightOnEnter]>
+            <div >
+                <img src="{{project.img}}" alt="" class="w-full">
+                <div class="flex flex-wrap gap-3 px-6 py-7 text-sm font-normal">
+                <span
+                        class="rounded-full px-4 py-2 shadow-md duration-150 bg-mainBlue-black/30 shadow-mainBlue-darkest hover:bg-mainBlue-black/60 hover:cursor-pointer"
+                        *ngFor="let tech of project.technologies">
                     {{tech}}
                 </span>
+                </div>
 
-            </div>
-            <div class="px-6 flex justify-between items-center">
-                <p class="font-normal text-3xl">{{project.title}}</p>
-                <a href="{{project.link}}"><mat-icon>open_in_new</mat-icon></a>
+                <div class="flex items-center justify-between px-6">
+                    <p class="text-3xl font-normal">{{project.title}}</p>
+                    <a href="{{project.link}}" target="_blank"><i
+                            class="flex items-center text-2xl duration-150 fi fi-rr-share-square hover:text-white"></i></a>
+                </div>
             </div>
         </div>
 

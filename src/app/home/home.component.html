@@ -1,33 +1,36 @@
-<div class="py-20 px-10 bg-home">
-    <p class="text-primaryWhite text-4xl font-normal">Title</p>
-    <div class="grid grid-cols-4 grid-rows-4 mt-20 gap-4 bg-transparent  ">
-        <div class="box-home bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
+<div
+     class="flex h-full w-full flex-col max-lg:flex-col max-lg:items-center justify-items-start gap-10">
+    <p class="text-4xl font-semibold text-primaryWhite" [@fadeInLeftOnEnter]>My Awesome Title</p>
+    <div class="container grid h-full grid-cols-2 gap-5">
+        <div class="grid grid-cols-2 gap-5"[@fadeInLeftOnEnter]>
+            <div class="rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" [@fadeInLeftOnEnter]>
+                <p class="text-3xl font-semibold text-mainBlue-primary">Tile 1</p>
+                <p class="text-base text-mainBlue-primary">Description for Tile 1</p>
+            </div>
+            <div class="rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" >
+                <p class="text-3xl font-semibold text-mainBlue-primary">Tile 2</p>
+                <p class="text-base text-mainBlue-primary">Description for Tile 2</p>
+            </div>
+            <div class="rounded-lg p-8 shadow-lg bg-card  shadow-mainBlue-darkest" [@fadeInLeftOnEnter]>
+                <p class="text-3xl font-semibold text-mainBlue-primary">Tile 3</p>
+                <p class="text-base text-mainBlue-primary">Description for Tile 3</p>
+            </div>
+            <div class="rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" >
+                <p class="text-3xl font-semibold text-mainBlue-primary">Tile 4</p>
+                <p class="text-base text-mainBlue-primary">Description for Tile 4</p>
+            </div>
         </div>
-        <div class="box-home bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
+        <div class="" [@fadeInRightOnEnter]>
+            <div class="h-full w-full rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest">
+                <p class="text-3xl font-semibold text-mainBlue-primary">Single Tile</p>
+                <p class="text-base text-mainBlue-primary">Description for Single Tile</p>
+            </div>
         </div>
-        <div class="col-span-2 row-span-2 box-home-sec bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
-        </div>
-        <div class="box-home bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
-        </div>
-        <div class="box-home bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
-        </div>
-        <div class="col-span-2 row-span-2 box-home-sec bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
-        </div>
-        <div class="col-span-2 row-span-2 box-home-sec bg-card flex-col justify-center items-center">
-            <p class="text-6xl font-normal ">Tile</p>
-            <div class="text-base text-primaryGray font-te">desc</div>
+        <div class="h-full w-full rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" [@fadeInLeftOnEnter]>test</div>
+        <div class="flex gap-5" [@fadeInRightOnEnter]>
+            <div class="h-full w-1/2 rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" >test</div>
+            <div class="h-full w-1/2 rounded-lg p-8 shadow-lg bg-card shadow-mainBlue-darkest" [@fadeInRightOnEnter]>
+                test</div>
         </div>
     </div>
 </div>
